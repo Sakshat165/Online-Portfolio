@@ -3,6 +3,26 @@ body{
     color: aliceblue;
     
 }
+button
+{
+    font-size:1.5rem;
+    border-radius: 8px;
+    background-color: #101820;
+    border-color: #e0d14a;
+    color: white;
+    font-weight: bold;
+}
+button:hover
+{
+    background-color: #e0d14a;
+    border-color: #101820;
+    color: white;
+}
+button a
+{
+    text-decoration: none;
+    color: white;
+}
 .navbar
 {
     background: #101820;
