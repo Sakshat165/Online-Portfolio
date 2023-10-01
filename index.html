@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Online Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Portfolio</a>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-dark navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#nav">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#first-section">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#second-section">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#third-section">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#fourth-section">Contact</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      
+    <section class="first-section" id="first-section">
+      <div class="left">
+        Hi, My name is <span class="yellow" id="element"></span>
+        <div>
+          and I'm a passionate<br>Web Developer
+        </div>
+      </div>
+      <div class="right">
+        <img src="Sakshat.jpeg" alt="">
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="second-section" id="second-section">
+      <h2>Education</h2>
+        <div class="contents">
+          <div class="box">
+            <h3>Christ College</h3>
+            <h4>2020-2023</h4>
+            <p>Bsc Computer Science</p>
+            <p>Grade:- 9.1 CGPA</p>
+          </div>
+          <div class="box">
+            <h3>Nowrosjee Wadia College</h3>
+            <h4>2018-2020</h4>
+            <p>HSC</p>
+            <p>Grade:- 61%</p>
+          </div>
+          <div class="box">
+            <h3>Christ College</h3>
+            <h4>2020-2023</h4>
+            <p>SSC</p>
+            <p>Grade:- 87.4%</p>
+          </div>
+        </div>
+        
+          
+        
+    </section>
+
+    <hr>
+    <section class="third-section" id="third-section">
+      <h2>Projects</h2>
+      <div class="row mt-2">
+        <div class="col mt-5">
+          <div class="card h-100" style="width: 15rem;">
+            <div class="card-body">
+              <h5 class="card-title">EzNotes</h5>
+              <h6 class="card-subtitle mb-2 ">HTML, CSS, JAVASCRIPT, BOOTSTRAP, PHP, MySQL</h6>
+              <p class="card-text">A WebApp with user-friendly interface that provides academic success by giving the users, notes which will help them to pass as well as master the
+                course</p>
+              <a href="https://sakshat165.github.io/EzNotes/main2.html" class="card-link"><i class="bi bi-box-arrow-up-right"></i></a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card h-100" style="width: 15rem;">
+            <div class="card-body">
+              <h5 class="card-title">Student Management System</h5>
+              <h6 class="card-subtitle mb-2">Python-Tkinter, MySQL</h6>
+              <p class="card-text">A student database management system is a stand-alone application designed to make the management of student data such as storage, tracking, and monitoring information simple and easy. Small local tuition classes can use this system for easy and simple data storage with
+                interactive GUI</p>
+              <a href="https://github.com/Sakshat165/Student-Management-System" class="card-link"><i class="bi bi-box-arrow-up-right"></i></a>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card h-100" style="width: 15rem;">
+            <div class="card-body">
+              <h5 class="card-title">Exploratory Data Analysis</h5>
+              <h6 class="card-subtitle mb-2">Python, Pandas, Seaborn, Matplot</h6>
+              <p class="card-text">Analyze Diwali sales data to improve customer experience and
+                sales. Relation between gender, amount, orders, state, occupation, product category, product id via Data Visualization</p>
+              <a href="https://github.com/Sakshat165/Diwali-Sales-Analysis-Python" class="card-link"><i class="bi bi-box-arrow-up-right"></i></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </section>
+
+    <hr>
+    <section class="fourth-section" id="fourth-section">
+      <h2>Contact</h2>
+      <div class="container">
+      <div class="left">
+        <div class="addcard">
+          <ul>
+            <li>
+              <h4>Location:</h4>Pune
+            </li>
+            <br>
+            <li>
+              <h4>Mobile:</h4> 8956173891
+            </li>
+            <br>
+            <li>
+              <h4>Mail:</h4>sakshat.worksite@gmail.com
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+      <div class="right">
+        <form>
+          <div class="mb-3">
+              <label for="exampleInputPassword1"></label>
+              <input type="name" class="form-control" id="name" placeholder="Your Name" style="border-color: #e0d14a;">
+            </div>
+            
+          <div class="mb-3">
+            <label for="exampleInputEmail1"></label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" style="border-color: #e0d14a;">
+          </div>
+          <div class="mb-3">
+              <label for="exampleInputEmail1"></label>
+              <textarea class="form-control" id="msg" placeholder="Your Message" style="border-color:#e0d14a;"></textarea>
+            </div>
+  
+          <button onclick="submit()" btn btn-primary style="background-color: #101820; border-color: #e0d14a; color: white;border-radius: 8px;">Submit</button>
+        </form>
+      </div>
+    </div> 
+    </section>
+
+
+    <hr>
+    <section class="footer">
+     <div class="icons">
+      <a href="https://www.linkedin.com/in/sakshat-shetty-060b09243"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://instagram.com/_sakshat16_?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/Sakshat165"><i class="fa-brands fa-github"></i></a>
+     </div>
+     <div class="footernav">
+      <ul>
+        <li><a href="#nav">Home</a></li>
+        <li><a href="#first-section">About</a></li>
+        <li><a href="#second-section">Education</a></li>
+        <li><a href="#third-section">Projects</a></li>
+        <li><a href="#fourth-section">Contact</a></li>
+      </ul>
+     </div>
+     <div class="footerbottom">
+      <p>Copyright &copy;2023, Designed by <span class="designer">Sakshat Shetty</span></p>
+     </div>
+    </section>
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Sakshat Shetty'],
+      typeSpeed: 50,
+      backSpeed:50,
+      loop:true
+    });
+
+  </script>
+</body>
+</html>
